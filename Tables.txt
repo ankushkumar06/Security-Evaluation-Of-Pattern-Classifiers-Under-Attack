@@ -1,0 +1,37 @@
+https://jpinfotech.org/security-evaluation-of-pattern-classifiers-under-attack/
+create database securitypattern2021;
+
+ create table user(
+ Fullname  varchar(100),
+Mobileno  varchar(100),
+photo varchar(100),
+Emailid  varchar(100),
+pwd varchar(100),
+Status varchar(100)
+);
+
+create table admin(
+username  varchar(100),
+pwd  varchar(100)
+);
+insert into admin values('a@g.com','aa');
+
+create table files(
+FileName varchar(100),
+Datetime  varchar(100),
+Fileowner  varchar(100),
+File_type varchar(100),
+ISSpam_Applied  varchar(100)
+);
+
+create table logfile(
+emailid varchar(100),
+FileName varchar(100),
+Datetimeaccessed  varchar(100),
+File_type varchar(100));
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+ <input name="Submit" type="submit" class="btn-primary" id="Submit" value="Submit" style="height:40px; width:80px; border:none"/>
+                                          <input name="Submit2" type="reset" class="bg-primary" id="Submit2" value="Reset" style="height:40px; width:80px; border:none"/>
